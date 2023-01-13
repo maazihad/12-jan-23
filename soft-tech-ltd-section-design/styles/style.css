@@ -24,16 +24,16 @@
   padding: 0 20px;
 }
 .section-title {
-  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-size: clamp(1.8rem, 5vw, 3rem);
   text-align: center;
   color: var(--primary-color);
   margin: 20px 0;
 }
 
 .gallary {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  justify-content: center;
 }
 .item {
   display: flex;
